@@ -1,14 +1,12 @@
 import React from 'react';
 import * as eva from '@eva-design/eva';
 import {
-    ApplicationProvider,
-    Button,
-    Layout,
-    Text,
-    Input, TopNavigation, Divider,
+  ApplicationProvider,
+  Button,
+  Layout,
+  Input,
 } from '@ui-kitten/components';
 
-import {NavigationContainer} from '@react-navigation/native';
 import {AppNavigator} from './components/navigation.component';
 
 export const LoginScreen = () => {
@@ -28,7 +26,7 @@ export const LoginScreen = () => {
 };
 
 export default () => (
-    <ApplicationProvider {...eva} theme={eva.dark}>
-      <AppNavigator />
-    </ApplicationProvider>
+  <ApplicationProvider {...eva} theme={eva.dark}>
+    <AppNavigator />
+  </ApplicationProvider>
 );
